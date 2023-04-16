@@ -1,0 +1,11 @@
+telegram_token: "6282226849:AAExEGj1WIvAZGTHlIlOAIbRHcK6NI4n1Bg"
+openai_api_key: "6299631994:AAHaeDK3KjL3hq6SWHOqiLKINQhC8-8TsaI"
+use_chatgpt_api: true
+allowed_telegram_usernames: [156769982]
+new_dialog_timeout: 600
+enable_message_streaming: true
+
+# prices
+chatgpt_price_per_1000_tokens: 0.002
+gpt_price_per_1000_tokens: 0.02
+whisper_price_per_1_min: 0.006

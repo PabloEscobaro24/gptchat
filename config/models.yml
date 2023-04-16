@@ -1,0 +1,45 @@
+available_text_models: ["gpt-3.5-turbo", "gpt-4", "text-davinci-003"]
+
+info:
+  gpt-3.5-turbo:
+    type: chat_completion
+    name: ChatGPT
+    description: ChatGPT это хорошо известная модель. Это <b>быстро</b> и <b>дешево</b>. Идеально подходит для повседневных задач. Если есть какие-то задачи, с которыми он не справляется, попробуйте <b>GPT-4</b>.
+
+    price_per_1000_input_tokens: 0.002
+    price_per_1000_output_tokens: 0.002
+
+    scores:
+      Smart: 3
+      Fast: 5
+      Cheap: 5
+
+  gpt-4:
+    type: chat_completion
+    name: GPT-4
+    description: GPT-4 это <b>самая умная</b> и продвинутая модель в мире. Но это медленнее и не так экономично, как в ChatGPT. Лучший выбор для <b>сложных</b> интеллектуальных задач.
+
+    price_per_1000_input_tokens: 0.03
+    price_per_1000_output_tokens: 0.06
+
+    scores:
+      Smart: 5
+      Fast: 2
+      Cheap: 2
+
+  text-davinci-003:
+    type: completion
+    name: GPT-3.5
+    description: GPT-3.5 это устаревшая модель. На самом деле <b>нет причин его использовать</b>, потому что это дороже и медленнее, чем ChatGPT, но почти такой же умный.
+
+    price_per_1000_input_tokens: 0.02
+    price_per_1000_output_tokens: 0.02
+
+    scores:
+      Smart: 3
+      Fast: 2
+      Cheap: 3
+
+  whisper:
+    type: audio
+    price_per_1_min: 0.006
